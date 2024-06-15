@@ -1,0 +1,6 @@
+
+.rating-area{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+.container_card{
+ width: 100%;
+ max-width: 1200px;
+ margin: 10px;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: 30px;
+ }
+
+.container_card_info{
+    width:30%;
+    border: double;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    text-align: left;
+    font-family:'Lobster';
+    
+} 
+
+.container_card_img{
+    height: auto;
+    width: 100%;
+}
+.container_card_info h2{
+    text-align: center;
+}
+
+/* .container_card_info p {
+   
+} */
